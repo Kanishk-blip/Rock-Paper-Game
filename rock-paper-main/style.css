@@ -1,0 +1,102 @@
+*{
+    color: white;
+    text-align: center;
+    margin: 0 ;
+    padding: 0;
+}
+body, button{
+    background-color: rgb(34, 34, 34);
+}
+
+.last-result{
+    transition: opacity 200ms ;
+}
+
+.comp-lives, .user-lives{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.highlighted{
+    border : rgb(5, 255, 234) 2px solid; 
+    transform: scale(1.2);
+    
+}
+.highlighted p{
+    color: rgb(5, 255, 234);
+}
+
+.play-again {
+    padding: 15px 60px;
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+/* Sizing */
+h1{
+    font-size: 45px;
+    margin: 30px 0 50px 0;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.logs p{
+    font-size: 18px;
+    color: rgb(255, 228, 26);
+    margin-bottom: 5px;
+}
+
+
+/* Positioning */
+
+.container{
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: black;
+    width: 400px;
+    border: white 2px solid;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.card .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.card .buttons{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.card .buttons button{
+    padding: 15px 0;
+    border-radius: 6px;
+    font-size: 25px;
+    flex: 1 1 0;
+}
+
+.card .buttons button:hover{
+    transform: scale(1.1);
+
+}

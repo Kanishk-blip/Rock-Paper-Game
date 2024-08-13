@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Welcome to the Game</h1>
+
+    <div class="play container">
+        <div class="human">
+            <h3>Human</h3>
+            <div class="card">
+                <div class="top">
+                    <img src="./img/user-solid-grey.svg" height="30px">
+                    <div class="Lives">
+                        <p >Lives</p>
+                        <p class="user-lives">5</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="rock">
+                        <img src="./img/rock.svg" alt="" height="40px">
+                        <p>Rock</p>
+                    </button>
+                    <button id="paper">
+                        <img src="./img/paper.svg" alt="" height="40px">
+                        <p>Paper</p>
+                    </button>
+                    <button id="scissor">
+                        <img src="./img/scissor.svg" alt="" height="40px">
+                        <p>Scissors</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="computer">
+            <h3>Computer</h3>
+            <div class=" card">
+                <div class="top">
+                    <img src="./img/laptop-solid-grey.svg" height="30px">
+                    <div class="Lives">
+                        <p >Lives</p>
+                        <p class="comp-lives">5</p>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="rock">
+                        <img src="./img/rock.svg" alt="" height="40px">
+                        <p>Rock</p>
+                    </button>
+                    <button class="paper">
+                        <img src="./img/paper.svg" alt="" height="40px">
+                        <p>Paper</p>
+                    </button>
+                    <button class="scissor">
+                        <img src="./img/scissor.svg" alt="" height="40px">
+                        <p>Scissors</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="output">
+        <h3 class="last-result">--</h3>
+        <div class="logs"></div>
+        
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
